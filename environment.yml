@@ -1,25 +1,10 @@
-# name: template-jupyter-project
+name: c1-versus-reality
 channels:
-  - chrisroadmap
   - conda-forge
-  - defaults
 dependencies:
-  - climateforcing
   - jupyter
+  - matplotlib
   - nbstripout
-# you might also want:
-#   - fair
-#   - h5py
-#   - iris
-#   - matplotlib
-#   - numpy
-#   - openpyxl
-#   - pandas
-#   - scipy
-#   - seaborn
-#   - statsmodels
-#   - tqdm
-# if you need to pip install anything:
-#   - pip
-#   - pip:
-#     - thing-to-pip-install
+  - numpy
+  - pandas
+  - tqdm
