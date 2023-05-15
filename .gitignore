@@ -2,11 +2,8 @@
 .DS_Store
 Thumbs.db
 
-# Big input files that can be downloaded and don't need committing
-data_input/rcmip/
-
-# You may want to ignore some large data output files too if they are reproducible
-# data_output/<insert subdir here>
+# figure output
+plots/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
